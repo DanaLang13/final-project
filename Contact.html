@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom</title>
+    <style>
+body{
+    background-image: url(image/sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    color:wheat;
+    text-shadow: 5px black;
+    padding: 50px;
+    margin: 50px;
+}
+
+nav{
+    text-align: center;
+}
+
+a{ 
+text-decoration: none;
+padding: 50px;
+}
+
+a:hover{
+    background-color: thistle;
+}
+
+a:link, a:visited{
+    color: wheat;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+    </style>
+</head>
+<body>
+    <header> <h1> Moms of Merced</h1></header>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Join Our Community</a>
+    </nav>
+
+<main>
+    <section>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="Email Address">Email Address</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+          
+              <label for="city">City</label>
+              <select id="city" name="city">
+                <option value="Merced">Merced</option>
+                <option value="Atwater">Atwater</option>
+                <option value="Los Banos">Los Banos</option>
+                <option value="other">Other</option>select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+    </section>
+</main> 
+
+<footer>
+
+</footer>
+</body>
+</html>
